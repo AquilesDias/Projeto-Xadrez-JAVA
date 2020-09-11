@@ -1,44 +1,41 @@
 package boardgame;
 
-import javafx.geometry.Pos;
+
 
 public class Board {
 
-    private Integer rowns;
-    private Integer columns;
+    private int rowns;
+    private int columns;
     private Piece[][] pieces;
 
-    public Board(Integer rowns, Integer columns) {
+    public Board(int rowns, int columns) {
         this.rowns = rowns;
         this.columns = columns;
         pieces = new Piece[rowns][columns];
     }
 
-    public Piece piece (Integer row, Integer columns){}
+    public Piece piece (int row, int column){
+        return pieces[row][column];
+    }
 
-    public Piece piece (Position position){}
+    public Piece piece (Position position){
+        return pieces [position.getRow()][position.getColumn()];
+    }
 
-    public void placePiece (Piece piece, Position position){}
 
-    public Piece removePiece (Position position){}
-
-    public boolean positionExists(Position position){}
-
-    public boolean therelsAPiece(Position position){}
-
-    public Integer getRowns() {
+    public int getRowns() {
         return rowns;
     }
 
-    public void setRowns(Integer rowns) {
+    public void setRowns(int rowns) {
         this.rowns = rowns;
     }
 
-    public Integer getColumns() {
+    public int getColumns() {
         return columns;
     }
 
-    public void setColumns(Integer columns) {
+    public void setColumns(int columns) {
         this.columns = columns;
     }
 }
