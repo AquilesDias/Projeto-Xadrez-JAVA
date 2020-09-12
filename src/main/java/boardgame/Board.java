@@ -22,6 +22,11 @@ public class Board { //Tabuleiro
         return pieces [position.getRow()][position.getColumn()];
     }
 
+    public void placePiece(Piece piece, Position position){  //Colocar peça
+        pieces[position.getRow()][position.getColumn()] = piece;
+        piece.position = position;
+    }
+
 
     public int getRowns() {
         return rowns;
