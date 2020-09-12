@@ -1,8 +1,6 @@
 package boardgame;
 
-import javax.swing.*;
-
-public class Piece {
+public class Piece {  //peça
 
     protected Position position;
     private Board board;

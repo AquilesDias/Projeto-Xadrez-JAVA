@@ -2,7 +2,7 @@ package chess;
 
 import boardgame.Board;
 
-public class ChessMatch {
+public class ChessMatch { //Partida de Xadrez
 
     private Board board;
 

@@ -2,10 +2,10 @@ package boardgame;
 
 
 
-public class Board {
+public class Board { //Tabuleiro
 
-    private int rowns;
-    private int columns;
+    private int rowns;     //Linhas
+    private int columns;   //Colunas
     private Piece[][] pieces;
 
     public Board(int rowns, int columns) {
