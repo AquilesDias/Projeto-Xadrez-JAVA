@@ -4,6 +4,9 @@
     <list default="true" id="04dee9df-a591-4da7-b4eb-41a44268e9f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/ChessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,22 +79,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1599763576548" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1600018853058">
+    <state width="1323" height="309" key="GridCell.Tab.0.bottom" timestamp="1600023028062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600018853058" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1600018853058">
+    <state width="1323" height="309" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600023028062" />
+    <state width="1323" height="309" key="GridCell.Tab.0.center" timestamp="1600023028062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600018853058" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1600018853058">
+    <state width="1323" height="309" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600023028062" />
+    <state width="1323" height="309" key="GridCell.Tab.0.left" timestamp="1600023028062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600018853058" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1600018853058">
+    <state width="1323" height="309" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600023028062" />
+    <state width="1323" height="309" key="GridCell.Tab.0.right" timestamp="1600023028062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600018853058" />
+    <state width="1323" height="309" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600023028062" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599763582960">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
