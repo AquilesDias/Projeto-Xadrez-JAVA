@@ -32,6 +32,8 @@ public class ChessMatch { //Partida de Xadrez
 
         validateSourcePosition(source);
 
+        validadeTargetPosition(source, target);
+
         Piece capturedPiece = makeMove(source, target);
 
         return (ChessPiece) capturedPiece;
@@ -51,6 +53,12 @@ public class ChessMatch { //Partida de Xadrez
         }
         if(!board.piece(position).isThereAnyPossibleMove()){
             throw new ChessException("There is no possible moves for the chosen piece");
+        }
+    }
+
+    public void validadeTargetPosition (Position source, Position target){
+        if(!board.piece(source).possibleMove(target)){
+            throw new ChessException("The chosen piece can't move to target possition");
         }
     }
 
