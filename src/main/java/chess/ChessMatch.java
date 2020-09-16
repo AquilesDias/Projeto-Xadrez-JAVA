@@ -5,14 +5,18 @@ import boardgame.Piece;
 import boardgame.Position;
 import chess.pieces.King;
 import chess.pieces.Rook;
-import sun.plugin2.util.ColorUtil;
 
 public class ChessMatch { //Partida de Xadrez
 
+    private int turn;
+
+    private Color currentPlayer;
     private Board board;
 
     public ChessMatch() {
         board = new Board(8, 8);
+        turn = 1;
+        currentPlayer = Color.WHITE;
         initialSetup();
     }
 
@@ -44,6 +48,8 @@ public class ChessMatch { //Partida de Xadrez
 
         Piece capturedPiece = makeMove(source, target);
 
+        nextTurn();
+
         return (ChessPiece) capturedPiece;
     }
 
@@ -59,6 +65,10 @@ public class ChessMatch { //Partida de Xadrez
         if(!board.thereIsAPiece(position)){
             throw new ChessException("There is no piece on source position");
         }
+        if(currentPlayer != ((ChessPiece)board.piece(position)).getColor()){
+            throw new ChessException("The chosen piece is not yours");
+        }
+
         if(!board.piece(position).isThereAnyPossibleMove()){
             throw new ChessException("There is no possible moves for the chosen piece");
         }
@@ -68,6 +78,11 @@ public class ChessMatch { //Partida de Xadrez
         if(!board.piece(source).possibleMove(target)){
             throw new ChessException("The chosen piece can't move to target possition");
         }
+    }
+
+    private void nextTurn(){
+        turn ++;
+        currentPlayer = (currentPlayer == Color.WHITE) ? Color.BLACK : Color.WHITE;
     }
 
 
@@ -89,5 +104,13 @@ public class ChessMatch { //Partida de Xadrez
         placeNewPiece('E', 7, new Rook(board, Color.BLACK));
         placeNewPiece('E', 8, new Rook(board, Color.BLACK));
         placeNewPiece('D', 8, new King(board, Color.BLACK));
+    }
+
+    public int getTurn(){
+       return turn;
+    }
+
+    public Color getCurrentPlayer(){
+        return currentPlayer;
     }
 }
