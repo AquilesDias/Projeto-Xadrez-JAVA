@@ -5,7 +5,7 @@ import boardgame.Position;
 import chess.ChessPiece;
 import chess.Color;
 
-public class Bishop extends ChessPiece { //Torre
+public class Bishop extends ChessPiece { //Bispo
 
     public Bishop (Board board, Color color){
         super(board, color);

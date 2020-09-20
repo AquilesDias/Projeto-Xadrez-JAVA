@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04dee9df-a591-4da7-b4eb-41a44268e9f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chess/pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chess/pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chess/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chess/pieces/Bishop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +78,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1599763576548" />
-    <state width="1323" height="393" key="GridCell.Tab.0.bottom" timestamp="1600607955715">
+    <state width="1323" height="437" key="GridCell.Tab.0.bottom" timestamp="1600612468378">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600293013796" />
-    <state width="1323" height="393" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600607955715" />
-    <state width="1323" height="393" key="GridCell.Tab.0.center" timestamp="1600607955714">
+    <state width="1323" height="437" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600612468378" />
+    <state width="1323" height="437" key="GridCell.Tab.0.center" timestamp="1600612468377">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600293013795" />
-    <state width="1323" height="393" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600607955714" />
-    <state width="1323" height="393" key="GridCell.Tab.0.left" timestamp="1600607955713">
+    <state width="1323" height="437" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600612468377" />
+    <state width="1323" height="437" key="GridCell.Tab.0.left" timestamp="1600612468377">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600293013795" />
-    <state width="1323" height="393" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600607955713" />
-    <state width="1323" height="393" key="GridCell.Tab.0.right" timestamp="1600607955714">
+    <state width="1323" height="437" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600612468377" />
+    <state width="1323" height="437" key="GridCell.Tab.0.right" timestamp="1600612468378">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="207" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1600293013795" />
-    <state width="1323" height="393" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600607955714" />
+    <state width="1323" height="437" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1600612468378" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599763582960">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
