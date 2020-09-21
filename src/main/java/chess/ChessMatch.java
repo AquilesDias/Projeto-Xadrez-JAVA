@@ -190,6 +190,7 @@ public class ChessMatch { //Partida de Xadrez
         placeNewPiece('B', 1, new Knight(board, Color.WHITE));
         placeNewPiece('G', 1, new Knight(board, Color.WHITE));
         placeNewPiece('E', 1, new King(board, Color.WHITE));
+        placeNewPiece('D', 1, new Queen(board, Color.WHITE));
         placeNewPiece('A', 2, new Pawn(board, Color.WHITE));
         placeNewPiece('B', 2, new Pawn(board, Color.WHITE));
         placeNewPiece('C', 2, new Pawn(board, Color.WHITE));
@@ -207,6 +208,7 @@ public class ChessMatch { //Partida de Xadrez
         placeNewPiece('B', 8, new Knight(board, Color.BLACK));
         placeNewPiece('G', 8, new Knight(board, Color.BLACK));
         placeNewPiece('E', 8, new King(board, Color.BLACK));
+        placeNewPiece('D', 8, new Queen(board, Color.BLACK));
         placeNewPiece('A', 7, new Pawn(board, Color.BLACK));
         placeNewPiece('B', 7, new Pawn(board, Color.BLACK));
         placeNewPiece('C', 7, new Pawn(board, Color.BLACK));
